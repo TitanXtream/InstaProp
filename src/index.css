@@ -1,0 +1,15 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    font-family: "Inter", sans-serif;
+  }
+}
+
+@layer components {
+  .custom_text_size {
+    @apply 2xl:text-[20px] md:text-[16px] text-[12px];
+  }
+}
